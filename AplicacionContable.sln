@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionContable", "AplicacionContable\AplicacionContable.csproj", "{252DFEAD-0911-4DD7-97CD-38AE0437B957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionContable.Entities", "AplicacionContable.Entities\AplicacionContable.Entities.csproj", "{D16BF5EA-246C-4733-B055-99C97E66AF1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{252DFEAD-0911-4DD7-97CD-38AE0437B957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252DFEAD-0911-4DD7-97CD-38AE0437B957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252DFEAD-0911-4DD7-97CD-38AE0437B957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252DFEAD-0911-4DD7-97CD-38AE0437B957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16BF5EA-246C-4733-B055-99C97E66AF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16BF5EA-246C-4733-B055-99C97E66AF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16BF5EA-246C-4733-B055-99C97E66AF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16BF5EA-246C-4733-B055-99C97E66AF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6ACDC94-B0CA-4C7A-A052-E66E802D7F71}
+	EndGlobalSection
+EndGlobal

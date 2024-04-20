@@ -1,0 +1,12 @@
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Release\AplicacionContable.Entities.dll.config
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Release\AplicacionContable.Entities.dll
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Release\AplicacionContable.Entities.pdb
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Release\EntityFramework.dll
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Release\EntityFramework.xml
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\obj\Release\AplicacionContable.Entities.csproj.AssemblyReference.cache
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\obj\Release\AplicacionContable.Entities.csproj.CoreCompileInputs.cache
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\obj\Release\AplicacionContable.Entities.csproj.CopyComplete
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\obj\Release\AplicacionContable.Entities.dll
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\obj\Release\AplicacionContable.Entities.pdb

@@ -1,0 +1,112 @@
+﻿@model IEnumerable<AplicacionContable.Entities.vw_contabilidad_partidas_detalle_Model>
+@{
+    ViewBag.Title = "Libro mayor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <div class="row tema">
+        <div class="col-12 mt-4">
+            <h1 class="h3 mt-4 text-gray-800">Libro mayor </h1>
+            <hr />
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Fecha inicio: </label><br />
+            <input id="txtFechaInicio" name="txtFechaInicio" type="date" value="@DateTime.Now.ToString("yyyy-MM-dd")" onchange="BuscarPartidas()" class="form-control text-end">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Fecha de fin: </label><br />
+            <input id="txtFechaFin" name="txtFechaFin" type="date" value="@DateTime.Now.ToString("yyyy-MM-dd")" onchange="BuscarPartidas()" class="form-control text-end">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#Detalle">DETALLE</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12">
+            <div class="tab-content">
+                <!-- Tab panes Detalle -->
+                <div class="tab-pane container active" id="Detalle">
+                    <table class="table table-bordered" id="myTable_Detalle">
+                        <thead>
+                            <tr>
+                                <th class="text-center" scope="col">Código</th>
+                                <th class="text-center" scope="col">Fecha</th>
+                                <th class="text-center" scope="col">Número de cuenta</th>
+                                <th class="text-center" scope="col">Cuenta</th>
+                                <th class="text-center" scope="col">Tipo</th>
+                                <th class="text-center" scope="col">Cargos</th>
+                                <th class="text-center" scope="col">Abonos</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var _a in Model)
+                            {
+                                <tr>
+                                    <th class="text-end" scope="row">@_a.PK_codigo</th>
+                                    <td class="text-end">@_a.fecha.ToString("dd-MM-yyyy")</td>
+                                    <td>@_a.numero_cuenta</td>
+                                    <td>@_a.nombre_cuenta</td>
+                                    <td>@_a.tipo</td>
+                                    <td class="text-end">@_a.cargo.ToString("C2")</td>
+                                    <td class="text-end">@_a.abono.ToString("C2")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script>
+
+        $(document).ready(function () {
+            let table = new DataTable('#myTable_Detalle');
+        });
+
+        function BuscarPartidas() {
+            var fecha_inicio = document.getElementById("txtFechaInicio").value; //le pone lo que esta en el modal.
+            var fecha_inicio = document.getElementById("txtFechaFin").value; //le pone lo que esta en el modal.
+            //Carga los datos del registro a editar;
+            var value = {
+                fecha_inicio: fecha_inicio
+            }
+            //Hace la peticion AJAX para guardar registro.
+            $.ajax({
+                url: '/Inventarios/Libro_mayor',
+                type: "POST",
+                data: JSON.stringify(value),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    //Actualizar pagina.
+                    //location.reload();
+                },
+                error: function (response) {
+
+                }
+            });
+        }
+
+    </script>
+}
+
+

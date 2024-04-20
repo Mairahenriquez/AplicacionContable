@@ -1,0 +1,68 @@
+﻿@model AplicacionContable.Entities.vw_proveedores_Model
+@{
+    ViewBag.Title = "Proveedores";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row tema">
+        <div class="col-12 mt-4">
+            <h1 class="h3 mt-4 text-gray-800">Proveedor # @Model.PK_codigo </h1>
+            <hr />
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Razón social:</label><br />
+            <label class="form-label bold">@Model.razon_social</label>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Nombre comercial:</label><br />
+            <label class="form-label bold">@Model.nombre_comercial</label>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Teléfono:</label><br />
+            <label class="form-label bold">@Model.telefono</label>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Nit: </label><br />
+            <label class="form-label bold">@Model.nit</label>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Dui: </label><br />
+            <label class="form-label bold">@Model.dui</label>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Nrc: </label><br />
+            <label class="form-label bold">@Model.nrc</label>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Departamento: </label><br />
+            <label class="form-label bold">@Model.departamento</label>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Municipio: </label><br />
+            <label class="form-label bold">@Model.municipio</label>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
+            <label class="form-label">Dirección: </label><br />
+            <label class="form-label bold">@Model.direccion</label>
+        </div>
+    </div>
+</div>
+
+@section botones{
+    <a href="/Proveedores/Index" class="btn btn-outline-secondary"><i class="fas fa-chevron-left"></i><span class="d-none d-sm-inline"> Proveedores</span></a>
+    <a href="~/Proveedores/Create" class="btn btn-outline-primary"><i class="fa-solid fa-plus"></i><span class="d-none d-sm-inline"> Nuevo</span></a>
+    <a href="~/Proveedores/Edit/@Model.PK_codigo" class="btn btn-outline-primary"><i class="fa-solid fa-pen-to-square"></i><span class="d-none d-sm-inline"> Editar</span></a>
+}
+
+@section scripts{
+    <script>
+
+    </script>
+}
+
+

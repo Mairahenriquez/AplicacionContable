@@ -1,0 +1,12 @@
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Debug\AplicacionContable.Entities.dll.config
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Debug\AplicacionContable.Entities.dll
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Debug\AplicacionContable.Entities.pdb
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Debug\EntityFramework.dll
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Debug\EntityFramework.xml
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\obj\Debug\AplicacionContable.Entities.csproj.AssemblyReference.cache
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\obj\Debug\AplicacionContable.Entities.csproj.CoreCompileInputs.cache
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\obj\Debug\AplicacionContable.Entities.csproj.CopyComplete
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\obj\Debug\AplicacionContable.Entities.dll
+C:\Users\yesem\OneDrive\Documents\Proyecto SIC\AplicacionContable\AplicacionContable.Entities\obj\Debug\AplicacionContable.Entities.pdb
